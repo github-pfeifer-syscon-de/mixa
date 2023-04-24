@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Version=0.1
+Name=Mixa
+Comment=Mixer for ALSA
+Categories=AudioVideo;Audio;
+Exec=mixa
+Icon=@APP_ICON@
