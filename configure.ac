@@ -2,7 +2,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_CONFIG_MACRO_DIR([m4])
 
-AC_INIT([mixa],[0.1],[mixa@pfeifer-syscon.de])
+AC_INIT([mixa],[0.1],[RolandPf67@googlemail.com])
 
 AC_CONFIG_HEADERS([config.h])
 
