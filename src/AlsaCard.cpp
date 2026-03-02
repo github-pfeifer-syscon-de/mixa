@@ -19,7 +19,7 @@
 #include <alsa/asoundlib.h>
 #include <glibmm.h>
 
-#include "config.h"
+#include "mixa_config.h"
 #include "AlsaCard.hpp"
 
 AlsaCard::AlsaCard(const std::string& indexstr, const std::string& name, const std::string& device_name)

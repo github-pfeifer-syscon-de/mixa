@@ -1,0 +1,2 @@
+option('keybind', type : 'boolean', value : false
+        , description : 'Build with multimedia key support')

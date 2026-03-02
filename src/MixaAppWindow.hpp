@@ -22,7 +22,7 @@
 
 #include "AlsaMixer.hpp"
 #include "CardFrame.hpp"
-#include "config.h"
+#include "mixa_config.h"
 class Keybind;
 
 class MixaAppWindow : public Gtk::ApplicationWindow {

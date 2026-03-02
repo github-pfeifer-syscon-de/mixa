@@ -18,12 +18,12 @@
 #include <iostream>
 #include <math.h>
 
-#include "config.h"
+#include "mixa_config.h"
 #include "AlsaElement.hpp"
 #include "ElementComponent.hpp"
 #include "ControlComponents.hpp"
 
-ControlComponents::ControlComponents(const std::shared_ptr<AlsaControl>& cntl, 
+ControlComponents::ControlComponents(const std::shared_ptr<AlsaControl>& cntl,
 	Gtk::Grid* grid, ElementComponent* elem, int col)
 : m_control{cntl}
 , m_cntlScale{nullptr}

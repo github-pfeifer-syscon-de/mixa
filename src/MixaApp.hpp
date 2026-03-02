@@ -20,8 +20,8 @@
 class MixaApp : public Gtk::Application {
 public:
     MixaApp(int arc, char **argv);
-    MixaApp(const MixaApp& orig);
-    virtual ~MixaApp();
+    MixaApp(const MixaApp& orig) = default;
+    virtual ~MixaApp() = default;
     void on_shutdown();
 
     void on_activate() override;

@@ -19,7 +19,7 @@
 #include <memory.h>
 #include <glibmm.h>
 
-#include "config.h"
+#include "mixa_config.h"
 #include "AlsaCard.hpp"
 #include "AlsaEvents.hpp"
 #include "AlsaMixer.hpp"

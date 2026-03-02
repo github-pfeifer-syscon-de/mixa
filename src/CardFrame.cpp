@@ -17,7 +17,7 @@
 #include <iostream>
 #include <memory>
 
-#include "config.h"
+#include "mixa_config.h"
 #include "ControlComponents.hpp"
 #include "ModeComponent.hpp"
 #include "CardFrame.hpp"

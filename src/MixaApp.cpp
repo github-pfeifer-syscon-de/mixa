@@ -30,17 +30,6 @@ MixaApp::MixaApp(int argc, char **argv)
 : Gtk::Application(argc, argv, "de.pfeifer_syscon.mixa")
 , m_mixaAppWindow(nullptr)
 {
-
-}
-
-MixaApp::MixaApp(const MixaApp& orig)
-: m_mixaAppWindow(orig.m_mixaAppWindow)
-{
-}
-
-MixaApp::~MixaApp()
-{
-    //std::cout << "MixaApp::~MixaApp" << std::endl;
 }
 
 void
